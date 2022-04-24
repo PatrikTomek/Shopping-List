@@ -17,13 +17,13 @@ body {
   height: 150px;
 }
 
-.list {
+.item-list {
   height: auto;
   padding-bottom: 20px;
 }
 
 .add-item,
-.list {
+.item-list {
   background-color: rgb(32, 32, 32);
   width: 800px;
   border-radius: 10px;

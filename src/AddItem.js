@@ -1,16 +1,12 @@
 import React, { useState } from "react";
 
-export default function AddItem() {
+export default function AddItem(props) {
   const [enteredItem, setEnteredItem] = useState("");
-
-  const addItem = () => {
-    console.log(enteredItem);
-    setEnteredItem("");
-  };
 
   const addItemSubmiter = (e) => {
     e.preventDefault();
-    addItem();
+    props.onAddItem(enteredItem);
+    setEnteredItem("");
   };
 
   const addItemChangeHandler = (e) => {
