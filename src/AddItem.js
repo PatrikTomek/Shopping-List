@@ -17,7 +17,12 @@ export default function AddItem(props) {
     <div className="add-item">
       <h1>My Shopping List</h1>
       <form onSubmit={addItemSubmiter}>
-        <input className="input" type="text" value={enteredItem} onChange={addItemChangeHandler} />
+        <input
+          className="input"
+          type="text"
+          value={enteredItem}
+          onChange={addItemChangeHandler}
+        />
         <button className="submit-btn" type="submit">
           Add item
         </button>
