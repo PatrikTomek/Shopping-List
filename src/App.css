@@ -30,7 +30,6 @@ body {
   top: 15px;
 }
 
-
 .add-item,
 .item-list {
   background-color: rgb(32, 32, 32);
@@ -54,13 +53,23 @@ body {
   height: 35px;
 }
 
-.items {
+.single-items {
   color: white;
   font-size: 18px;
   list-style-type: none;
   position: relative;
   right: 20px;
   margin-top: 10px;
+  text-decoration: none;
+}
+.checked-items {
+  color: white;
+  font-size: 18px;
+  list-style-type: none;
+  position: relative;
+  right: 20px;
+  margin-top: 10px;
+  text-decoration: line-through;
 }
 
 .item-checkbox {

@@ -7,7 +7,7 @@ export default function ItemList(props) {
       <h2>List</h2>
       <ul>
         {props.items.map((item) => (
-          <li className="items" key={item.id}>
+          <li className="single-items" key={item.id}>
             <input 
             className="item-checkbox" 
             type="checkbox" 
